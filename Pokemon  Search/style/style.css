@@ -1,0 +1,182 @@
+.container{
+
+    display: inline-block;
+    width:100%;
+    height:800px;
+    padding:0px;
+
+
+}
+.search-header{
+
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    
+
+}
+.search-banner{
+
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+  
+
+}
+.search-banner img{
+
+    width: 100%;
+    height: auto;
+
+}
+.search-bar{
+
+    width:100%;
+    height:75px;
+    background-color:rgb(255, 213, 0);
+    display: inline-flex;
+
+}
+.input-group{
+
+    width: 75%;
+    height: 35px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 12%;
+    float:left;
+    display: inline-flex;
+    
+}
+.input-group input{
+
+    width:100%;
+    font-size: 25px;
+    
+}
+.input-group label{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+    margin-top: 5px;
+    padding-right:20px;
+    padding-left: 15px;
+    float: left;
+   
+}
+.input-group button{
+
+    
+    width: 80px;
+  
+    font-weight: bolder;
+    color:white;
+    background-color:black;
+}
+.input-group button:hover{
+
+    background-color: rgb(255, 193, 6);
+    color:black;
+}
+.search-results-container{
+
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+ 
+    overflow: scroll;
+    padding:15px;
+}
+.item-block{
+
+    width:100%;
+   
+    height:auto;
+    background-color:white;
+   
+    border-color: greenyellow;
+    border-width: 1px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.item-image{
+
+    width: 100%;
+    height: 50%;
+
+    border-radius: 15px;
+    
+}
+.item-content{
+
+    width: 100%;
+    height: auto;
+   
+    border-radius: 15px;
+    display: inline-block;
+    padding-bottom: 15px;
+
+   
+}
+.item-content-label-name {
+
+     font-size: 35px;
+     font-weight: bold;
+     color:black;
+     display: block;
+     text-align: center;
+
+
+}
+.error{
+
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.item-content-label-type{
+
+     font-size: 18px;
+     font-weight: bold;
+     color:black;
+     display: block;
+     text-align: center;
+  
+
+}
+.item-image img{
+
+   
+    height:95%;
+  
+    min-width: 250px;
+    max-width: 250px;
+    margin: auto;
+    display: block;
+}
+.item-image img:hover{
+
+    border-width: 10px;
+    border-style:solid;
+    border-color:gold;
+}
+@media(max-width:1000px){
+
+    .item-block{
+
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .search-results-container{
+
+        display: inline-block;
+    }
+}
